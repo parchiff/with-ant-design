@@ -50,16 +50,6 @@ export default class SiderDemo extends React.Component {
             </Header>
             <Content style={{ margin: '24px 16px', padding: 24, background: '#fff', minHeight: 280 }}>
               Content
-    <p>only this paragraph will get ddthe style :)</p>
-
-              { /* you can include <Component />s here that include
-         other <p>s that don't get unexpected styles! */ }
-
-              <style jsx>{`
-      p {
-        color: red;
-      }
-    `}</style>
             </Content>
           </Layout>
         </Layout>
